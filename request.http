@@ -1,0 +1,22 @@
+
+GET http://localhost:5000/mensajes HTTP/1.1
+
+### 
+
+POST http://localhost:5000/mensajes HTTP/1.1
+content-type: application/json
+
+{
+    "cuerpo": "MI  POST CON MI HIJA",
+    "de": "TOOOOOMA "
+}
+
+### 
+POST http://localhost:5000/mensajes/JAMON HTTP/1.1
+content-type: application/json
+
+{
+    "cuerpo": "MI  POST CON MI HIJA",
+    "de": "TOOOOOMA "
+}
+
